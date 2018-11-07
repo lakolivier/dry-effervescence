@@ -1,4 +1,7 @@
-html
-{
-    color: blue;
-}
+    ul
+        {
+            /*take away bullets*/
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
