@@ -5,10 +5,10 @@
             margin: 0;
             padding: 0;
             background-color: #dddddd;
-            /*keep it @ top*/
+            /*keep it @ top and full page
             position: fixed;
             top: 0;
-            width: 100%;
+            width: 100%;*/
         }
 
     li
