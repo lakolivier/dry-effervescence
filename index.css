@@ -5,10 +5,9 @@
             margin: 0;
             padding: 0;
             background-color: #dddddd;
-            /*keep it @ top and full page
-            position: fixed;
+            /*stick navbar to top*/
+            position: -sticky;
             top: 0;
-            width: 100%;*/
         }
 
     li
