@@ -20,8 +20,9 @@
     li a
     {
         display: block;
+        color: white;
         text-align: center;
-        padding: 8px;
+        padding: 14px 16px;
     }
 
     li a:hover
