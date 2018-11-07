@@ -23,12 +23,14 @@ li a
     text-decoration: none;
 }
 
+/*indicate the active page*/
 li a.active
 {
     background-color: #4CAF50;
     color: white;
 }
 
+/*indicate the link moused over*/
 li a:hover:not(.active)
 {
     background-color:#111;
