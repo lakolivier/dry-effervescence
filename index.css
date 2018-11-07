@@ -6,7 +6,7 @@
             padding: 0;
             background-color: #dddddd;
             /*stick navbar to top*/
-            position: -sticky;
+            position: sticky;
             top: 0;
         }
 
