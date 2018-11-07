@@ -36,8 +36,3 @@ li a:hover:not(.active)
     background-color:#111;
     color: white;
 }
-
-img
-{
-    height: 40%;
-}
