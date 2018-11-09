@@ -3,9 +3,10 @@
 {
     background-image: url("images/prof.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    width: 1920px;
-    height: 250px;
+    max-width: 1920px;
+    max-height: 250px;
     padding: 20px;
     margin: 0px;
 }
