@@ -1,0 +1,43 @@
+/*header goes here*/
+.header
+{
+    background-image: url("images/prof.jpg");
+    text-align: center;
+    padding: 20px;
+}
+
+/*nav goes here*/
+.nav
+{
+    overflow: hidden;
+    background-color: #333;
+}
+/*nav links*/
+.nav a
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*change active link color */
+.nav a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+/*change link color when hover*/
+.nav a:hover:not(.active)
+{
+    background-color: #ddd;
+    color:black;
+}
+
+/*image display*/
+img
+{
+    max-width: 100%;
+    height: auto;
+}
