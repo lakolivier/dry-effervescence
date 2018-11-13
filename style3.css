@@ -46,3 +46,35 @@ img
     max-width: 100%;
     height: auto;
 }
+
+/*where the main body lie*/
+.column
+{
+    float: left;
+    padding: 10px;
+}
+
+.column.main
+{
+    width: 75%;
+}
+
+.column.add
+{
+    width: 25%;
+}
+/*clear float so everything doesn't die*/
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*respond to window sizing*/
+@media screen and (max-width: 600px)
+{
+    .column.main, .column.add
+    {
+        width: 100%;
+    }
+}
