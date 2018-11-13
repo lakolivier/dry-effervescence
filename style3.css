@@ -48,6 +48,11 @@ img
 }
 
 /*where the main body lie*/
+body
+{
+    margin: 0;
+}
+
 .column
 {
     float: left;
