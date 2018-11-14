@@ -83,21 +83,30 @@ clear float so everything doesn't die
 }
 */
 
+/*create the flexed box*/
 .row
 {
     display: flex;
     width: 100%;
 }
-
-.column
+/*make the small bois*/
+.columnMain
 {
     flex: 1;
     padding: 10px;
+    width: 75%;
+}
+
+.columnAdd
+{
+    flex: 1;
+    padding: 10px;
+    width: 25%;
 }
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
 {
-    .column
+    .columnMain, .columnAdd
     {
         width: 100%;
     }
