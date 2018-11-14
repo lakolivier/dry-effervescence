@@ -87,6 +87,7 @@ clear float so everything doesn't die
 .row
 {
     display: flex;
+    align-items: center;
     width: 100%;
 }
 /*make the small bois*/
@@ -100,7 +101,6 @@ clear float so everything doesn't die
 {
     flex: 25%;
     padding: 10px;
-    align-items: center;
 }
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
