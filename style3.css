@@ -1,0 +1,112 @@
+/*everythang
+*
+{
+    box-sizing: border-box;
+}
+*/
+/*header goes here*/
+.header
+{
+    background-image: url("images/prof.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin: 0px;
+}
+
+/*nav goes here*/
+.nav
+{
+    overflow: hidden;
+    background-color: #333;
+}
+/*nav links*/
+.nav a
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*change active link color */
+.nav a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+/*change link color when hover*/
+.nav a:hover:not(.active)
+{
+    background-color: #ddd;
+    color:black;
+}
+
+/*image display*/
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/*where the main body lie*/
+body
+{
+    margin: 0;
+}
+/*
+.column
+{
+    float: left;
+    padding: 10px;
+}
+
+.column.main
+{
+    width: 75%;
+}
+
+.column.add
+{
+    width: 25%;
+}
+clear float so everything doesn't die
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+
+/*create the flexed box*/
+.row
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+/*make the small bois*/
+.columnMain
+{
+    flex: 75%;
+    padding: 10px;
+}
+
+.columnAdd
+{
+    flex: 25%;
+    padding: 10px;
+}
+/*respond to window sizing*/
+@media screen and (max-width: 600px)
+{
+    .row
+    {
+        flex-direction: column;
+    }
+}
