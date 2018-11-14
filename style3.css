@@ -58,7 +58,7 @@ body
 {
     margin: 0;
 }
-
+/*
 .column
 {
     float: left;
@@ -74,17 +74,30 @@ body
 {
     width: 25%;
 }
-/*clear float so everything doesn't die*/
+clear float so everything doesn't die
 .row:after
 {
     content: "";
     display: table;
     clear: both;
 }
+*/
+
+.row
+{
+    display: flex;
+    width: 100%;
+}
+
+.column
+{
+    flex: 1;
+    padding: 10px;
+}
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
 {
-    .column.main, .column.add
+    .column
     {
         width: 100%;
     }
