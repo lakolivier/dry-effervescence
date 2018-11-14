@@ -101,7 +101,6 @@ clear float so everything doesn't die
     flex: 25%;
     padding: 10px;
     align-items: center;
-    justify-content: center;
 }
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
