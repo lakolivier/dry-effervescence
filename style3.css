@@ -92,21 +92,21 @@ clear float so everything doesn't die
 /*make the small bois*/
 .columnMain
 {
-    flex: 2;
+    flex: 75%;
     padding: 10px;
 }
 
 .columnAdd
 {
-    flex: 1;
+    flex: 25%;
     padding: 10px;
+    text-align: center;
 }
-/*respond to window sizing
+/*respond to window sizing*/
 @media screen and (max-width: 600px)
 {
-    .columnMain, .columnAdd
+    .row
     {
-        width: 100%;
+        flex-direction: column;
     }
 }
-*/
