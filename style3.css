@@ -92,16 +92,14 @@ clear float so everything doesn't die
 /*make the small bois*/
 .columnMain
 {
-    flex: 1;
+    flex: 2;
     padding: 10px;
-    width: 75%;
 }
 
 .columnAdd
 {
     flex: 1;
     padding: 10px;
-    width: 25%;
 }
 /*respond to window sizing
 @media screen and (max-width: 600px)
