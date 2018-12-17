@@ -21,14 +21,14 @@
 .nav
 {
     overflow: hidden;
-    background-color: #333;
+    background-color: #3E4F5B;
 }
 /*nav links*/
 .nav a
 {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #93BCD9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,14 +36,14 @@
 /*change active link color */
 .nav a.active
 {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #193142;
+    color: #93BCD9;
 }
 /*change link color when hover*/
 .nav a:hover:not(.active)
 {
-    background-color: #ddd;
-    color:black;
+    background-color: #53A3DB;
+    color: #193142;
 }
 
 /*image display*/
@@ -89,6 +89,7 @@ clear float so everything doesn't die
     display: flex;
     align-items: center;
     width: 100%;
+    background-color: #93BCD9;
 }
 /*make the small bois*/
 .columnMain
