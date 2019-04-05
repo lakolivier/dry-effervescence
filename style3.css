@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 */
+@font-face
+{
+    font-family: Highway Gothic;
+    src: url(fonts/HWYGOTH.TTF);
+}
+
 /*header goes here*/
 .header
 {
@@ -22,6 +28,7 @@
 {
     overflow: hidden;
     background-color: #3E4F5B;
+    font-family: Highway Gothic;
 }
 /*nav links*/
 .nav a
