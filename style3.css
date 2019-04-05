@@ -120,8 +120,10 @@ clear float so everything doesn't die
 
 .columnAdd > p
 {
-    background-color: #193142;
     padding: 10px;
+    background-color: #193142;
+    font-family: Highway Gothic;
+    color: #93BCD9;
 }
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
