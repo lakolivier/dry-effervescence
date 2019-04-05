@@ -95,7 +95,7 @@ clear float so everything doesn't die
 .columnMain
 {
     flex: 75%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .columnMain > div
