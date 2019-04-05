@@ -114,7 +114,7 @@ clear float so everything doesn't die
 .columnAdd
 {
     flex: 25%;
-    padding: 15px;
+    padding: 20px;
     align-self: flex-start;
 }
 
