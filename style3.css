@@ -60,6 +60,11 @@ img
     height: auto;
 }
 
+.grayscale
+{
+    -webkit-filter: grayscale(100%);/*safari is rough*/
+    filter: grayscale(100%);
+}
 /*where the main body lie*/
 body
 {
