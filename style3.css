@@ -60,11 +60,6 @@ img
     height: auto;
 }
 
-.grayscale
-{
-    -webkit-filter: grayscale(100%);/*safari is rough*/
-    filter: grayscale(100%);
-}
 /*where the main body lie*/
 body
 {
@@ -113,13 +108,13 @@ clear float so everything doesn't die
 .columnMain > div
 {
     background-color: #193142;
-    padding: 10px;
+    padding: 25px;
 }
 
 .columnAdd
 {
     flex: 25%;
-    padding: 10px;
+    padding: 15px;
     align-self: flex-start;
 }
 
