@@ -103,11 +103,18 @@ clear float so everything doesn't die
     background-color: #193142;
     padding: 10px;
 }
+
 .columnAdd
 {
     flex: 25%;
     padding: 10px;
     align-self: flex-start;
+}
+
+.columnAdd > p
+{
+    background-color: #193142;
+    padding: 10px;
 }
 /*respond to window sizing*/
 @media screen and (max-width: 600px)
