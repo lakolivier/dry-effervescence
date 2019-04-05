@@ -87,13 +87,13 @@ clear float so everything doesn't die
 .row
 {
     display: flex;
-    align-items: center;
     width: 100%;
     background-color: #93BCD9;
 }
 /*make the small bois*/
 .columnMain
 {
+    align-items: center;
     flex: 75%;
     padding: 10px;
 }
