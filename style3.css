@@ -108,11 +108,13 @@ clear float so everything doesn't die
 .columnMain > div
 {
     background-color: #193142;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
     padding: 25px;
 }
-
+.columnMain > p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
 .columnAdd
 {
     flex: 25%;
